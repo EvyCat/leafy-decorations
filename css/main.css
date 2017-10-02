@@ -4,7 +4,7 @@ html {
 
 .masthead {
   background-image: url("../images/leaf-bg.svg");
-  background-repeat: repeat-x repeat-y;
+  background-repeat: round;
   background-size: 64px;
   background-color: #588477;
   border-top: 3px solid #2d5a4d;
@@ -37,18 +37,19 @@ html {
 }
 
 .banner {
-  background-image: url("../images/banner.jpg");
+  background-color: #145b1d;
+  background-image: linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url("../images/banner.jpg");
+  background-position: center bottom;
   background-size: cover;
-  background-position: center;
 }
 
 .banner-content {
-  padding-top: 256px;
+  padding-top: 300px;
   color: #fff;
   background-image: url("../images/two-leaves.svg");
   background-repeat: no-repeat;
   background-size: 96px;
-  background-position: left 140px;
+  background-position: 15px 180px;
 }
 
 @media only screen and (min-width: 60em) {
